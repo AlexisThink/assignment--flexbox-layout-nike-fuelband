@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+  }
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.first-part{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.product-description{
+    width: 33.4%;
+}
+
+.product-description span{
+    font-weight: bolder
+}
+
+.main-image{
+    width: 66.4%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+/*Aqui Empieza La Segunda Parte*/
+
+.container-trifold{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-trifold{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right img{
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center img{
+    width: 100%;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.left img{
+    width: 100%;
+}
+
+.enlarge-image{
+    font-weight: lighter;
+    color: orangered;
+}
+
+/*Center Body*/
+
+.center-body{
+    width: 70%;
+    margin: 0 auto;
+}
